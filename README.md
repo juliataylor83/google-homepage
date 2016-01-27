@@ -1,4 +1,3 @@
-# google-homepage yayayayayay
-My re-creation of Google's homepage! yayayayyaya
-Title: Google Homepage
-Link to project here is another change...please work! PLEASE!
+# google-homepage this is a test
+My re-creation of Google's homepage
+<a href="theodinproject.com">Link</a>
