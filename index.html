@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<!-- CSS Style Sheets -->
+
+		<link href="styles/reset.css" rel="stylesheet" type="text/css"/>
+		<link href="styles/stylesheet.css" rel="stylesheet" type="text/css"/>
+		
+		<title>My version of Google's homepage</title>
+	
+	</head>
+	
+	<body>
+<!-- divs for the header and footer bars are useful to organize the links on each. Making the container divs relative and whatever structure to hold the links absolute is useful here-->
+		<div id="container">
+
+			<div id="topbar">
+<!-- unorded lists work well for organizing the links. make sure to list them from right to left order. -->
+				<ul>
+					<li>
+						<div id="signin">Sign in</div>
+					</li>
+					<li>
+						<img src="images/apps.png"/>
+					</li>
+					<li>
+						<a href="https://images.google.com/">Images</a>
+					</li>
+					<li>
+						<a href="https://mail.google.com">Gmail</a>
+					</li>
+				</ul>
+			</div>
+
+			<img id="logo" src="images/googlelogo.png">
+
+			<div id="searchbar">
+				<form>
+					<input type="search" name="search">
+				</form>
+			</div>
+
+			<div id="searchoptions">
+				<div class="button">Google Search</div>
+				<div class="button">I'm Feeling Lucky</div>
+			</div>
+
+			<div id="bottombar">
+				<ul id="bottomright">
+					<li><a href="https://www.google.com/preferences">Settings</a></li>
+					<li><a href="http://www.google.com/intl/en/policies/">Terms</a>
+					</li>
+					<li><a href="http://www.google.com/intl/en/policies/">Privacy</a>
+					</li>
+				</ul>
+				<ul id="bottomleft">
+					<li><a href="https://www.google.com/intl/en/about/">About</a></li>
+					<li><a href="https://www.google.com/services/">Business</a></li>
+					<li><a href="http://www.google.com/intl/en/ads/">Advertising</a></li>
+				</ul>
+			</div>
+
+	</body>
+
+</html>
